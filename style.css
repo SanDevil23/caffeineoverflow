@@ -1,14 +1,25 @@
 body{
     background-color: antiquewhite;
-    
+    overflow-y: scroll;
+    margin: 0;    
 }
 
-.head{
-    background-color: rgb(192, 155, 116);
-    font-size: 70px;
-    text-align: center;
+.top-nav{
+    padding: 18px;
+    background-color: rgb(207, 126, 180);
 }
 
+.top-nav a{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 20px;
+    color: rgb(57, 34, 14);
+}
+
+.top-nav a:hover{
+    background-color: rgb(255, 0, 115);
+    color: whitesmoke;  
+}
 /* css for icons */
 
 .fa {
@@ -21,12 +32,58 @@ body{
 .fa:hover {
     opacity: 0.7;
 }
-.fa-twitter {
-    background: #55ACEE;
+.fa-github {
+    background: #000000;
     color: white;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+.fa-instagram {
+  background: #ca059c;
+  color: rgb(255, 255, 255);
 }
+
+
+.icon-bar{
+    position:sticky;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%) ;
+    transform: translateY(-50%);
+}
+
+
+.icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover{
+    background-color:rgb(0, 0, 0) ;
+    color:#ca059c;
+}
+
+
+.body{
+    background-color: #e529b932;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 1%;
+    height: 0%;
+    line-break: none;
+}
+
+
+.head{
+    background-color: rgb(192, 155, 116);
+    font-size: 70px;
+    text-align: center;
+    border: none;
+    border-width: 0%;
+}
+
+
