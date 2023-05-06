@@ -1,9 +1,16 @@
 body{
     background-color: antiquewhite;
     overflow-y: scroll;
-    margin: 0;    
+    margin: 0;
 }
-
+#date{
+    padding: 3px;
+    width:100%;
+    color:#ffffff;
+    font-size:22px;
+    background-color: #ea0890;
+    position: inherit;
+}
 .top-nav{
     padding: 18px;
     background-color: rgb(207, 126, 180);
