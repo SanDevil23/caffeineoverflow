@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(235, 213, 242);
     overflow-y: scroll;
     margin: 0;
 }
@@ -19,7 +19,7 @@ body{
 .top-nav a{
     text-decoration: none;
     padding: 18px;
-    font-size: 20px;
+    font-size: 22px;
     color: rgb(57, 34, 14);
 }
 
@@ -86,11 +86,45 @@ body{
 
 
 .head{
-    background-color: rgb(192, 155, 116);
+    background-color: rgb(55, 6, 71);
     font-size: 70px;
     text-align: center;
     border: none;
     border-width: 0%;
+    color:#ffffff;
+}
+
+.dyn-1{
+    padding: 20px;
+    background-color: rgb(233, 190, 209);
+    box-shadow: #000000 4px 6px 17px;
+}
+
+.dyn-1 input{
+    background-color:#ffffff;
+    width: 50%;
+    border: solid 1px;
+    border-radius: 2px;
+    padding:1%;
+    box-shadow: rgb(45, 45, 45) 3px 4px;
+    
+}
+.dyn-1 input:active{
+    background-color: rgb(255, 235, 249);
+}
+
+.dyn-1 button{
+    background-color: #6f1956;
+    color:aliceblue;
+    padding:1%;
+    cursor:grabbing;
+    box-shadow: #000000 3px 4px;
+
+}
+
+.dyn-1 button:hover{
+    background-color: #ea0890;
+    box-shadow: #000000 2px 4px;
 }
 
 
