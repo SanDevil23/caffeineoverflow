@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(235, 213, 242);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/984/880/original/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg");
     overflow-y: scroll;
     margin: 0;
 }
@@ -8,14 +8,56 @@ body{
     width:100%;
     color:#ffffff;
     font-size:22px;
-    background-color: #ea0890;
+    background-color: #ea08907a;
     position: inherit;
 }
 .top-nav{
     padding: 18px;
-    background-color: rgb(207, 126, 180);
+    background-color: rgba(235, 50, 173, 0);
 }
 
+#wth{
+    width:500px;
+    align-items: center;
+    margin:auto;
+    box-shadow:4px 6px #000000; 
+    padding:5%;
+    width:100%;
+    background-color: #ffffff89;
+    color: rgb(0, 0, 0);
+    position:relative;
+    margin-bottom: 15px;
+}
+#c1{
+    background-color: #003cff5a;
+    padding:10px;
+    border-radius: 5%;
+    text-decoration:solid;
+    font-size: 20px;
+    
+}
+#c3{
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#c3:hover{
+    color:#ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+
+
+.card-body{
+    padding: 50%;
+}
 .top-nav a{
     text-decoration: none;
     padding: 18px;
@@ -51,7 +93,7 @@ body{
 
 
 .icon-bar{
-    position:sticky;
+    position:relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%) ;
@@ -75,7 +117,6 @@ body{
 
 
 .body{
-    background-color: #e529b932;
     font-size: 30px;
     color:rgb(0, 0, 0);
     text-align: center;

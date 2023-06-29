@@ -19,9 +19,10 @@ function  main(){
   {
     var y = 5;
     x=1;
-    console.log(y)
+    console.log(y);
   }
   console.log(y);
 }
+
 
 main();
